@@ -192,96 +192,6 @@ const translations = {
             error: "No pudimos enviar tu solicitud ahora mismo. Inténtalo de nuevo en unos momentos."
         }
     },
-    az: {
-        nav: { home: "Ana Səhifə", tours: "Turlar", pricing: "Qiymətlər", about: "Haqqımızda", contact: "Əlaqə" },
-        hero: {
-            title: "Qafqazın İncisini Kəşf Edin",
-            subtitle: "Dünyanın hər yerindən gələn səyahətçilər üçün unudulmaz səfərlər.",
-            cta: "Macəraya Başla"
-        },
-        stats: { tourists: "Məmnun Turist", years: "İl Təcrübə", tours: "Unikal Tur" },
-        about: {
-            title: "Niyə Caspian Dream?",
-            text: "Biz sizə sadəcə Azərbaycanı göstərmirik; onu hiss etdiririk. İngilis, Rus, İspan və Portuqal dillərində səlis danışan bələdçilərimizlə mədəniyyət körpüsü yaradırıq. Qəbələdə şərab dequstasiyasından Bakının memarlıq möcüzələrinə qədər.",
-            badge: "Sertifikatlı Mütəxəssislər",
-            features: {
-                qualityTitle: "Keyfiyyət",
-                qualityDesc: "Yüksək reytinqli otellər və nəqliyyat",
-                langTitle: "Dil",
-                langDesc: "İngilis, Rus, İspan və Portuqal dilli bələdçilər"
-            }
-        },
-        tours: {
-            title: "Xüsusi Turlar",
-            subtitle: "Seçilmiş səyahət istiqamətləri",
-            bookBtn: "Ətraflı Bax",
-            locations: [
-                {
-                    id: 1,
-                    title: "Bakı: Qədim və Müasir",
-                    desc: "Orta əsr divarlarının futuristik Alov Qüllələri ilə qovuşduğu təzadlar şəhəri.",
-                    details: ["İçərişəhər", "Alov Qüllələri", "Xalça Muzeyi"],
-                    price: "$80-dan"
-                },
-                {
-                    id: 2,
-                    title: "Şəki: İpək Yolu İrsi",
-                    desc: "Xan Sarayını gəzin, məşhur Şəki halvasını dadın və qədim Karvansarayda gecələyin.",
-                    details: ["Xan Sarayı", "Bio Bağ", "Alban Kilsəsi"],
-                    price: "$120-dan"
-                },
-                {
-                    id: 3,
-                    title: "Qəbələ və Şamaxı",
-                    desc: "Təbiətə mükəmməl qaçış. Şərabçılıq, kanat yolları və Böyük Qafqazın möhtəşəm mənzərələri.",
-                    details: ["Şərab Turu", "Tufandağ", "Cümə Məscidi"],
-                    price: "$100-dan"
-                },
-                {
-                    id: 4,
-                    title: "Qobustan və Vulkanlar",
-                    desc: "40.000 il əvvəlin tarixinə toxunun. Qayaüstü rəsmlər və unikal palçıq vulkanları.",
-                    details: ["Qayaüstü Rəsmlər", "Palçıq Vulkanları", "Bibiheybət"],
-                    price: "$70-dan"
-                }
-            ]
-        },
-        pricing: {
-            title: "Turun Qiymətləri",
-            subtitle: "Bütün qruplar üçün şəffaf tariflər",
-            pax: "Nəfər sayı",
-            opA: "Seçim A (5* Otellər)",
-            opB: "Seçim B (4* Otellər)",
-            city: "Şəhərlər",
-            baku: "BAKI",
-            hotel5: "HILTON HOTEL 5*",
-            hotel4: "MOVENPICK HOTEL 4*",
-            sngl: "Tək Nəfər Əlavə",
-            priceA: "400 EUR / 470 USD",
-            priceB: "220 EUR / 280 USD"
-        },
-        testimonials: {
-            title: "Qonaq Rəyləri",
-            reviews: [
-                { name: "Maria Gonzalez", country: "İspaniya", text: "İnanılmaz təcrübə. Bakı valehedicidir və bələdçi ispan dilində mükəmməl danışırdı!" },
-                { name: "Joao Silva", country: "Portuqaliya", text: "Yeməklər, insanlar, hər şey möhtəşəm. Hər kəsə tövsiyə edirəm." },
-                { name: "Carlos Ruiz", country: "Meksika", text: "Ən yaxşı agentlik. Özümüzü evdəki kimi hiss etdik. Qəbələ cənnətdir." },
-                { name: "Anna Becker", country: "Almaniya", text: "Hava limanından qarşılamadan Qəbələ dağ turuna qədər hər şey çox rahat və şəxsi yanaşma ilə idi." },
-                { name: "Sofia Martinez", country: "Argentina", text: "Gözəl otellər, səmimi qonaqpərvərlik və şəhər, mədəniyyət, təbiətin ideal balansı." }
-            ]
-        },
-        contact: {
-            title: "Səyahəti Planla",
-            subtitle: "Azərbaycana hazırsınız?",
-            name: "Adınız",
-            email: "Email",
-            message: "Mesajınız",
-            send: "Sorğunu Göndər",
-            success: "Təşəkkürlər! Sizinlə tezliklə əlaqə saxlayacağıq.",
-            sending: "Sorğunuz göndərilir...",
-            error: "Sorğunu indi göndərmək mümkün olmadı. Bir az sonra yenidən cəhd edin."
-        }
-    },
     pt: {
         nav: { home: "Início", tours: "Tours", pricing: "Preços", about: "Sobre", contact: "Contato" },
         hero: {
@@ -467,7 +377,6 @@ const translations = {
 const uiText = {
     en: { heroEyebrow: "Curated journeys across Azerbaijan", aboutKicker: "Trusted local expertise", toursKicker: "Local favorites", storiesKicker: "Guest feedback", storiesSubtitle: "Five-star hospitality backed by real travelers.", pricingKicker: "Best value", contactKicker: "Let us plan it with you", emailLabel: "Email:", phoneLabel: "Phone:", locationLabel: "Location:" },
     es: { heroEyebrow: "Viajes seleccionados por Azerbaiyán", aboutKicker: "Experiencia local de confianza", toursKicker: "Favoritos locales", storiesKicker: "Opiniones reales", storiesSubtitle: "Hospitalidad cinco estrellas avalada por viajeros reales.", pricingKicker: "Mejor valor", contactKicker: "Planifiquémoslo contigo", emailLabel: "Correo:", phoneLabel: "Teléfono:", locationLabel: "Ubicación:" },
-    az: { heroEyebrow: "Azərbaycan boyunca seçilmiş səyahətlər", aboutKicker: "Etibarlı yerli təcrübə", toursKicker: "Yerli favoritlər", storiesKicker: "Qonaq rəyləri", storiesSubtitle: "Həqiqi səyahətçilərin təsdiqlədiyi beşulduzlu qonaqpərvərlik.", pricingKicker: "Ən sərfəli seçim", contactKicker: "Səfəri birlikdə planlaşdıraq", emailLabel: "Email:", phoneLabel: "Telefon:", locationLabel: "Məkan:" },
     pt: { heroEyebrow: "Jornadas selecionadas pelo Azerbaijão", aboutKicker: "Experiência local confiável", toursKicker: "Favoritos locais", storiesKicker: "Relatos reais", storiesSubtitle: "Hospitalidade cinco estrelas aprovada por viajantes reais.", pricingKicker: "Melhor custo-benefício", contactKicker: "Vamos planejar com você", emailLabel: "E-mail:", phoneLabel: "Telefone:", locationLabel: "Localização:" },
     ru: { heroEyebrow: "Авторские путешествия по Азербайджану", aboutKicker: "Надежная местная экспертиза", toursKicker: "Любимые маршруты", storiesKicker: "Отзывы гостей", storiesSubtitle: "Пятизвездочное гостеприимство, подтвержденное реальными путешественниками.", pricingKicker: "Лучшее предложение", contactKicker: "Давайте спланируем вместе", emailLabel: "Email:", phoneLabel: "Телефон:", locationLabel: "Локация:" }
 };
@@ -495,11 +404,8 @@ const state = {
 document.addEventListener("DOMContentLoaded", () => {
     bindEvents();
     buildCityLights();
-    updateHeaderState();
     renderPage();
     initRevealObserver();
-    window.addEventListener("scroll", updateHeaderState, { passive: true });
-    document.getElementById("footer-year").textContent = String(new Date().getFullYear());
 });
 
 function getInitialLanguage() {
@@ -789,10 +695,6 @@ function refreshRevealObserver() {
             state.observer.observe(element);
         }
     });
-}
-
-function updateHeaderState() {
-    document.getElementById("site-header").classList.toggle("is-scrolled", window.scrollY > 24);
 }
 
 function scrollToSection(id) {
